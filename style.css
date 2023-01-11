@@ -1,0 +1,75 @@
+.one{
+    animation: pulsate 2s
+    ease-in-out infinite;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(81, 51, 30);
+    background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    
+}  
+input{
+    margin-left: 140px;
+    border: 2px solid;
+    background-color:linen
+    
+}
+
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: linen;
+}
+img{
+    width: 5cm;
+    height: 5cm;
+    border: 2px solid;
+    
+    border-color: rgba(4, 15, 18, 0.692);
+}
+.four:hover{
+    box-shadow: 0px 0px 15px 5px;
+}
+
+.four{
+    transition: 0.5s;
+}
+.one:hover{
+     text-decoration: underline ;
+    
+}
+
+@keyframes pulsate {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.six{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 4cm;
+    align-self: center;
+    padding-top: 3cm;
+    
+
+}
+.five{
+    margin: 3cm;
+}
+.six a{
+    color: white;
+   
+}
+
